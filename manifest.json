@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "New Tab To-Do List",
+  "version": "1.0",
+  "description": "A simple to-do list extension for the new tab page.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": ["storage"],
+  "icons": {
+    "48": "icon.png"
+  }
+}
